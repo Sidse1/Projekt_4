@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Placér elementerne i containeren i hver ende */
+    align-items: center; /* Centrer vertikalt */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Gør listeelementerne vandrette */
+   
+}
+
+
+.menu li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #7A7A79;
+    font-size: 10px;
+    font-family: arial;
+
+}
+
+
+
