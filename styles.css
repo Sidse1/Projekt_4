@@ -28,3 +28,44 @@
     max-width: 200px; /* Juster størrelsen afhængigt af dit logo */
 }
 
+
+  
+/* burgermenu*/
+  .burger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .burger-icon {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  
+  .menu2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  .menu2 li {
+    padding: 10px;
+  }
+  
+  .menu2 li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
