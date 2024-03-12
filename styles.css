@@ -21,7 +21,7 @@
     text-decoration: none;
     color: #7A7A79;
     font-size: 15px;
-    font-family: arial;
+    font-family: 'Lato';
 }
 
 .logo img {
@@ -71,11 +71,11 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #F47521;
+  background-color: #284E37;
   color: white;
   padding: 10px 15px;
   border: none;
-  position: fixed;
+  position: absolute;
   top: 50px; /* Juster top-værdien for at flytte knappen længere ned */
   right: 35px; /* Placing the button on the right side */
 }
@@ -91,3 +91,95 @@
   padding: 20px;
 }
 
+
+/* galleri*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+  
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text1 {
+  color: #f2f2f2;
+  font-family: 'Lato';
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.middle-bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: Arial;
+}
+
+.middle-bottom button {
+  background-color: #F47521; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
