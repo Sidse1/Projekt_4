@@ -1,9 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const burgerIcon = document.querySelector('.burger-icon');
-    const menu2 = document.querySelector('.menu2');
+
   
-    burgerIcon.addEventListener('click', function () {
-      menu2.classList.toggle('show');
-    });
-  });
-  
+/* Set the width of the sidebar to 250px and the right margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginRight = "250px"; // Ændret til marginRight
+}
+
+/* Set the width of the sidebar to 0 and the right margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginRight = "0"; // Ændret til marginRight
+}
