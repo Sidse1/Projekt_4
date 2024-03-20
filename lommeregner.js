@@ -4,7 +4,8 @@ document.getElementById("beerForm").addEventListener("submit", function(event) {
     var result = document.getElementById("result");
     if (!isNaN(liters)) {
         var squareMeters = liters;
-        result.innerText = `${liters} liters of beer is equal to ${squareMeters} square meters.`;
+        var donationAmount = liters * 12;
+        result.innerHTML = `${liters} liters of beer is equal to ${squareMeters} square meters. <br> Your donation amount is ${donationAmount} kr.`;
     } else {
         result.innerText = "Please enter a valid number for the amount of beer.";
     }
