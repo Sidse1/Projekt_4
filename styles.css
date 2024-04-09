@@ -243,6 +243,7 @@ button:hover {
   margin-top: 20px;
 }
 
+/* nyhedsbrev*/
 form {
   border: 3px solid #f1f1f1;
   font-family: Arial;
@@ -264,7 +265,8 @@ input[type=text] {
 
 .nyhedsbrev {
   width: 25%;
-  font-size: 120%;
+  font-size: 130%;
+  border-radius: 10px;
 }
 /* styling af footer*/
 footer {
