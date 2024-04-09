@@ -207,6 +207,7 @@ h1 {
   text-align: center;
 }
 
+/*nyhedsbrev*/
 form {
   text-align: center;
   margin-bottom: 20px;
@@ -247,7 +248,7 @@ form {
   font-family: Arial;
 }
 
-.containernews{
+.containernews {
   padding: 20px;
   background-color: #f1f1f1;
 }
@@ -260,11 +261,11 @@ input[type=text] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-.nyhedsbrev{
+
+.nyhedsbrev {
   width: 25%;
   font-size: 120%;
 }
-
 /* styling af footer*/
 footer {
   padding: 20px;
