@@ -241,3 +241,41 @@ button:hover {
   font-weight: bold;
   margin-top: 20px;
 }
+
+
+/* styling af footer*/
+footer {
+  padding: 20px;
+  background-color: #274E37;
+  font-family: arial;
+}
+
+.footer-container {
+  display: flex; /* Bruger Flexbox til at arrangere kolonnerne vandret */
+  flex-wrap: wrap; /* Tillader kolonnerne at vikle sig, hvis de ikke kan være på samme linje */
+  justify-content: flex-end; /* Placerer kolonnerne til højre */
+}
+
+.footer-column {
+  flex: 1; /* Fordeler pladsen lige mellem kolonnerne */
+  padding: 0 20px;
+  max-width: 25%; /* Begrænser bredden af hver kolonne til 25% */
+  box-sizing: border-box; /* Sørger for, at padding ikke øger bredden af kolonnerne */
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.footer-column p {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-logo  {
+  background-color: white;
+  max-width: 20%;
+  height: 80%;
+  margin-top: 20px; /* Tilføjer lidt mellemrum under logoet */
+}
