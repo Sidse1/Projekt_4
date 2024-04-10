@@ -1,12 +1,12 @@
-document.getElementById("newsletterForm").addEventListener("submit", function(event) {
-    var email = document.getElementById("emailInput").value;
-    if (!isValidEmail(email)) {
-      event.preventDefault();
-      alert("Venligst indtast en gyldig e-mailadresse.");
-    }
-  });
-
-  function isValidEmail(email) {
-    var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return pattern.test(email);
-  }
+document.getElementById("newsletterform").addEventListener("submit", function(event){
+  event.preventDefault(); // Prevent form submission
+  
+  // Get the email input value
+  var email = document.getElementById("email").value;
+  
+  // Display pop-up message
+  alert("Tak fordi du tilmeldte dig nyhedsbrevet med følgende e-mail: " + email);
+  
+  // Optionally, you can submit the form here if needed
+  // this.submit();
+});
