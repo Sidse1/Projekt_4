@@ -207,6 +207,34 @@ h1 {
   text-align: center;
 }
 
+/*galleri*/
+
+.gallery-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery-inner {
+  display: flex;
+  width: fit-content; /* Sørger for at indholdet ikke udvider sig over beholderens bredde */
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 300px; /* Ændr bredden efter behov */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+
 /*nyhedsbrev*/
 form {
   text-align: center;
