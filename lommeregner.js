@@ -1,7 +1,7 @@
 document.getElementById("beerForm").addEventListener("submit", function(event) {
     event.preventDefault();
-    var liters = parseFloat(document.getElementById("beerInput").value);
-    var result = document.getElementById("result");
+    let liters = parseFloat(document.getElementById("beerInput").value);
+    let result = document.getElementById("result");
     if (!isNaN(liters)) {
         var squareMeters = liters;
         var donationAmount = liters * 12;
