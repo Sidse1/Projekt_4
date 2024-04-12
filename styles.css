@@ -321,9 +321,13 @@ h1 {
 
 
 /*nyhedsbrev*/
+
+
+
 form {
   text-align: center;
   margin-bottom: 20px;
+
 }
 
 label {
@@ -364,7 +368,7 @@ form {
 
 .containernews {
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #E0E0E0;
 }
 
 input[type=text] {
