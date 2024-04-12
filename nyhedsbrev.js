@@ -1,12 +1,26 @@
+
+let emailList = [];
+
+emailList.push("skolemail1@gmail.com");
+emailList.push("mailskole5@gmail.com");
+
 document.getElementById("newsletterform").addEventListener("submit", function(event){
-  event.preventDefault(); // Prevent form submission
+  event.preventDefault(); 
   
-  // Get the email input value
   let email = document.getElementById("email").value;
   
-  // Display pop-up message
-  alert("Tak fordi du tilmeldte dig nyhedsbrevet med følgende e-mail: " + email);
+  if(emailList.includes(email)) {
+    alert("Denne e-mail er allerede tilmeldt nyhedsbrevet.");
+  } else {
+    emailList.push(email);
+    alert("Tak fordi du tilmeldte dig nyhedsbrevet med følgende e-mail: " + email);
+  }
+
   
-  // Optionally, you can submit the form here if needed
-  // this.submit();
+  console.log("Alle emails på listen:");
+  emailList.forEach(function(item) {
+    console.log(item);
+  });
 });
+
+
