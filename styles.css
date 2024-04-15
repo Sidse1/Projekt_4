@@ -1,19 +1,21 @@
+/* header */
+
 .container {
     display: flex;
-    justify-content: space-between; /* Placér elementerne i containeren i hver ende */
+    justify-content: space-between; 
     align-items: center;
     padding: 20px;
 }
 
 .menu {
     list-style-type: none;
-    margin-top: -50px; /* Flyt menuen længere op */
- /* Tilføj lidt plads nedenunder menuen */
+    margin-top: -50px; 
+
     padding: 0;
 }
 
 .menu li {
-    display: inline; /* Gør listeelementerne vandrette */
+    display: inline; 
 }
 
 .menu li a {
@@ -25,9 +27,10 @@
 }
 
 .logo img {
-    max-width: 200px; /* Juster størrelsen afhængigt af dit logo */
+    max-width: 200px; 
 }
   
+
 
  /* The sidebar menu */
 .sidebar {
@@ -36,14 +39,14 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0; /* Placing the sidebar on the right side */
+  right: 0; 
   background-color: #7A7A79;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
 }
 
-/* The sidebar links */
+
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -53,21 +56,21 @@
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidebar a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
+
 .closebtn {
   position: absolute;
   top: 0;
-  left: 10px; /* Adjusted left position */
+  left: 10px; 
   font-size: 36px;
   margin-left: 50px;
 }
 
-/* The button used to open the sidebar */
+
 .openbtn {
   font-size: 20px;
   cursor: pointer;
@@ -76,8 +79,8 @@
   padding: 10px 15px;
   border: none;
   position: absolute;
-  top: 50px; /* Juster top-værdien for at flytte knappen længere ned */
-  right: 35px; /* Placing the button on the right side */
+  top: 50px; 
+  right: 35px; 
 }
 
 
@@ -85,14 +88,14 @@
   background-color: #444;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main2 {
-  transition: margin-right .5s; /* Adjusted for margin-right */
+  transition: margin-right .5s; 
   padding: 20px;
 }
 
 
-/* galleri*/
+/* slideshow*/
 
 * {box-sizing:border-box}
 
@@ -103,7 +106,7 @@
 }
 
 
-/* Slideshow container */
+
 .foto {
   margin-top: -30px;
   width: 100%;
@@ -112,12 +115,12 @@
 
   
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -133,13 +136,13 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -196,20 +199,20 @@
 .beer {
   max-height: auto;
   width: 15%;
-  margin: 0 auto; /* Tilføjer margin: 0 auto; for at centrere vandret */
-  display: block; /* Tilføjer display: block; for at anvende margin: 0 auto; */
+  margin: 0 auto; 
+  display: block; 
 }
 
 .container3 {
-  margin-top: -40px; /* Tilføjet margin-top for at justere placeringen */
+  margin-top: -40px; 
   max-width: 500px;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: white; /* Ændret baggrundsfarven til gennemsigtig */
+  background-color: white; 
   margin-left: auto;
   margin-right: 0;
-  position: relative; /* Tilføjet position: relative; */
-  z-index: 1; /* Tilføjet z-index for at sikre, at det er foran alt andet */
+  position: relative;
+  z-index: 1; 
 }
 
 h1 {
@@ -220,17 +223,17 @@ h1 {
   float: left;
   width: 33.33%;
   padding: 20px;
-  position: relative; /* Tilføjer relativ positionering for at positionere overlay korrekt */
+  position: relative; 
 }
 
 
 
 #beerForm button {
-  background-color: #F47521; /* Baggrundsfarve */
+  background-color: #F47521; 
   margin-top: 5%;
   margin-bottom: 5%;
-  color: white; /* Tekstfarve */
-  padding: 12px 40px; /* Padding (top, bottom, left, right) */
+  color: white; 
+  padding: 12px 40px; 
   border-radius: 12px; 
   cursor: pointer; 
 }
@@ -244,27 +247,28 @@ h1 {
   float: left;
   width: 33.33%;
   padding: 20px;
-  position: relative; /* Tilføjer relativ positionering for at positionere overlay korrekt */
+  position: relative;
 }
 
 
 .venstre {
   position: absolute;
   left: 0;
-  top: 35px; /* Juster dette efter behov for at placere indholdet vertikalt */
+  top: 35px; 
   font-family: arial;
-  margin-left: -720px; /* Juster dette efter behov for at trække indholdet uden for boksen */
+  margin-left: -720px; 
 }
 
 
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+
+
+/* arrangementer */
 .tidligere {
   width: 100%;
   height: auto;
@@ -305,13 +309,13 @@ h1 {
 
 .gallery-inner {
   display: flex;
-  width: fit-content; /* Sørger for at indholdet ikke udvider sig over beholderens bredde */
+  width: fit-content; 
 }
 
 .gallery-item {
   flex: 0 0 auto;
   margin-right: 20px;
-  width: 300px; /* Ændr bredden efter behov */
+  width: 300px; 
 }
 
 .gallery-item img {
@@ -360,7 +364,6 @@ button:hover {
   margin-top: 20px;
 }
 
-/* nyhedsbrev*/
 form {
   border: 3px solid #f1f1f1;
   font-family: Arial;
@@ -386,6 +389,8 @@ input[type=text] {
   border-radius: 10px;
 }
 
+
+
 /* styling af footer*/
 footer {
   padding: 20px;
@@ -394,16 +399,16 @@ footer {
 }
 
 .footer-container {
-  display: flex; /* Bruger Flexbox til at arrangere kolonnerne vandret */
-  flex-wrap: wrap; /* Tillader kolonnerne at vikle sig, hvis de ikke kan være på samme linje */
-  justify-content: flex-end; /* Placerer kolonnerne til højre */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: flex-end; 
 }
 
 .footer-column {
-  flex: 1; /* Fordeler pladsen lige mellem kolonnerne */
+  flex: 1; 
   padding: 0 20px;
-  max-width: 25%; /* Begrænser bredden af hver kolonne til 25% */
-  box-sizing: border-box; /* Sørger for, at padding ikke øger bredden af kolonnerne */
+  max-width: 25%; 
+  box-sizing: border-box; 
 }
 
 .footer-column h3 {
@@ -420,5 +425,5 @@ footer {
   background-color: white;
   max-width: 20%;
   height: 80%;
-  margin-top: 20px; /* Tilføjer lidt mellemrum under logoet */
+  margin-top: 20px; 
 }
