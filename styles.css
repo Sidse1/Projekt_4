@@ -194,7 +194,7 @@
 
 /*lommeregner*/
 .beer {
-  height: auto;
+  max-height: auto;
   width: 15%;
   margin: 0 auto; /* Tilføjer margin: 0 auto; for at centrere vandret */
   display: block; /* Tilføjer display: block; for at anvende margin: 0 auto; */
