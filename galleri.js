@@ -2,7 +2,7 @@ const galleryInner = document.querySelector('.gallery-inner');
 const galleryItems = document.querySelectorAll('.gallery-item');
 
 
-const images = ['images/Firefly unge på guidet tur i en skov med naturvejleder 76183.jpg', 'bilde1.jpg', 'ko.jpg', 'vand.jpg'];
+const images = ['images/blomster.himmel.jpg', 'images/natur.jpg', 'images/natur.vand.jpg', 'images/natur.piger.jpg'];
 
 
 images.forEach(image => {
