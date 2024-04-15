@@ -10,7 +10,7 @@ let slideIndex = 0;
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 3500); // Skift hvert 3. sekund (3000 millisekunder)
+    setTimeout(showSlides, 4000); // Skift hvert 3. sekund (3000 millisekunder)
   }
 
   // Next/previous controls
