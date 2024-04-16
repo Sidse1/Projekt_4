@@ -225,6 +225,11 @@ p{
   display: block; 
 }
 
+.kampagne-tekst {
+  color: #444;
+  line-height: 1.5; /* Juster linjeafstand efter behov */
+}
+
 .container3 {
   margin-top: -40px; 
   max-width: 500px;
@@ -454,3 +459,4 @@ footer {
   height: 80%;
   margin-top: 20px; 
 }
+
