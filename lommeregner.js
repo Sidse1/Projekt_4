@@ -5,14 +5,14 @@ document.getElementById("beerForm").addEventListener("submit", function(event) {
     if (!isNaN(liters)) {
         var squareMeters = liters;
         var donationAmount = liters * 12;
-        var donations = []; // Array til at gemme donationer
+        var donations = []; 
         for (let i = 1; i <= liters; i++) {
-            donations.push(i * 12); // Tilføjer hver donation til arrayet baseret på antallet af liter øl
+            donations.push(i * 12); 
         }
         if (liters === 5) {
             result.innerHTML = "Tillykke, du har doneret 60 kr til Naturfonden";
         } else {
-            let totalDonation = donations.reduce((acc, curr) => acc + curr, 0); // Beregner den samlede donation ved at summere alle donationer i arrayet
+            let totalDonation = donations.reduce((acc, curr) => acc + curr, 0); 
             result.innerHTML = `${liters} liter øl = ${squareMeters} kvadratmeter. <br> Din samlede donation er ${totalDonation} kr.`;
         }
     } else {
