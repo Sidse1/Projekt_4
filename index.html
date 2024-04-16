@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -10,9 +10,9 @@
     <script src="lommeregner.js" defer></script>
     <script src="menu.js" defer></script>
     <script src="galleri.js " defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
    
     
     <div class="container">
@@ -45,7 +45,7 @@
     </div>
     
 
-<div class="slideshow-container">
+  <div class="slideshow-container">
 
 
   <div class="mySlides fade">
@@ -59,172 +59,168 @@
   </div>
 
   <div class="mySlides fade">
-    <img src="images/natur.treastub.jpg" class="foto1" alt="en træstub">
-    <div class="text1">Nyd en øl med god smag i munden</div>
+      <img src="images/natur.treastub.jpg" class="foto1" alt="en træstub">
+      <div class="text1">Nyd en øl med god smag i munden</div>
+    </div>
+    <div class="middle-bottom">
+      <button onclick="yourFunction()">STØT</button>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
 
-  
-  <div class="middle-bottom">
-    <button onclick="yourFunction()">STØT</button>
-  </div>
-
-  
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<div class="container3">
-  <div class="venstre">
-    <h2>Hvad kan vi tilbyde?</h2>
-    <p class="kampagne-tekst">Som noget helt nyt hos Den Danske Naturfond, har vi skabt en kampagne, 
-      som vi har valgt at kalde <br> “1 liter øl = 1 kvadratmeter” <br>
-       For hver liter øl, du køber gennem Naturøl jo flere kvadratmeter natur doneres der til. <br>
-       Vi inviterer derfor alle unge til vores arrangementer, hvor der nydes kolde øl med god samvittighed. </p>
-    
-  </div>
-  <h1>STØT DEN DANSKE NATUR</h1>
-  <form id="beerForm">
+  <div class="container3">
+    <div class="venstre">
+      <h2>Hvad kan vi tilbyde?</h2>
+      <p class="kampagne-tekst">Som noget helt nyt hos Den Danske Naturfond, har vi skabt en kampagne, 
+        som vi har valgt at kalde <br> “1 liter øl = 1 kvadratmeter” <br>
+        For hver liter øl, du køber gennem Naturøl jo flere kvadratmeter natur doneres der til. <br>
+        Vi inviterer derfor alle unge til vores arrangementer, hvor der nydes kolde øl med god samvittighed. 
+      </p>
+    </div>
+    <h1>STØT DEN DANSKE NATUR</h1>
+    <form id="beerForm">
       <label for="beerInput">Hvor mange liter øl har du drukket?</label>
       <input type="number" id="beerInput" step="any" required>
       <button type="submit">Beregn</button>
-  </form>
-  <div id="result"></div>
- 
-  <img src="images/beer.jpg" class="beer" alt="billede af øl">
-</div>
+    </form>
+    <div id="result">
+    </div>
+    <img src="images/beer.jpg" class="beer" alt="billede af øl">
+  </div>
 
 
-<div>
-  <h2 class="center">Kommende arrangementer</h2>
-</div>
-<div class="row">
-  <div class="column"> 
-    <img class="tidligere" src="images/mols-bjerge.jpg" alt="natur run Fyns hovde">
-    <div class="overlay">
-      <h3 class="event-title">Øl stafet den 4. maj i Molsbjerge</h3>
-      <p>Oplev vores halvårlige øl stafet i Mols bjerge. <br>
-        Tag dine venne under armen og stil op som hold til ølstafet i Mols bjerge.
-         <br> Reglerne til ølstafetten er særligt unikke og en oplevelse værd også som tilskuer. <br>
+  <div>
+    <h2 class="center">Kommende arrangementer</h2>
+  </div>
+  <div class="row">
+    <div class="column"> 
+      <img class="tidligere" src="images/mols-bjerge.jpg" alt="natur run Fyns hovde">
+      <div class="overlay">
+        <h3 class="event-title">Øl stafet den 4. maj i Molsbjerge</h3>
+        <p>Oplev vores halvårlige øl stafet i Mols bjerge. <br>
+          Tag dine venne under armen og stil op som hold til ølstafet i Mols bjerge.
+          <br> Reglerne til ølstafetten er særligt unikke og en oplevelse værd også som tilskuer. <br>
           Selvfølgelig vil øllen være vores helt egen naturøl, så du donerer mens du drikker. 
         </p>
-    </div>
-  </div>
-  <div class="column">
-    <img class="tidligere" src="images/kollund.skov.jpg" alt="kanotur på holme å">
-    <div class="overlay">
-      <h3 class="event-title">Sheltertur den 17-20 maj i Kollund skov</h3> 
-      <p>Nu er det tid igen, vi gentager succesen med vores årlige pinsetur. 
-        Ved du ikke hvad du skal i pinsen så frygt ikke vi har den helt rigtige oplevelse for dig. Deltag i en fantastisk sheltertur i kollund skov her vil du skabe ny bekendtskaber over naturoplevelser og selvfølgelig nogle kolde Naturøl 
-      </p>
-    </div>
-  </div>
-  <div class="column">
-    <img class="tidligere" src="images/storebaelt.klint.jpg" alt="vandretur i kragelund skov">
-    <div class="overlay">
-      <h3 class="event-title"> Ølsmagning  den 1 juni ved Storebæltsbroen</h3> 
-      <p>
-        I anledning af vores nye naturområde ved Storebæltsbroen inviterer vi til en eksklusiv ølsmagning med direkte udsigt til Storebæltsbroen. Vores samarbejdspartner og brygger af Naturøl Nørrebro Bryghus vil sørge for øl.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div>
-  <h2 class="center">Tidligere arrangementer</h2>
-</div>
-
-<div class="row">
-  <div class="column"> 
-    <img class="tidligere" src="images/fynshoved.jpg" alt="unge der løber en tur">
-    <div class="overlay">
-      <h3> Natur run den 17 marts på Fyns hoved</h3> 
-      <p> 
-        Den 17 mart var 33 med til at deltage i vores årlige Natur run ved smukke fyns hovde der blev både løbet 3km og hele 25km samtidig med at der blev snakket og drukket øl og vand 
-      </p>
-    </div>
-  </div>
-  <div class="column">
-    <img class="tidligere" src="images/kano.arrangement.jpg" alt="kanotur på holme å">
-    <div class="overlay">
-      <h3> Kanotur den 28 marts på Holme Å</h3> 
-      <p>
-        Den 28.marts var 28 mellem alderen 20-25 år mødt op til en sjov og udfordrende kanotur på holme Å der blev drukket øl og brugt ro musklerne.
-      </p>
-    </div>
-  </div>
-  <div class="column">
-    <img class="tidligere" src="images/unge.walking.jpg" alt="vandretur i kragelund skov">
-    <div class="overlay">
-      <h3> Walk and talk den 24 februar i Kraglund, Varde </h3> 
-      <p>
-        Den 24 februar dukkede 26 op for at deltage socialt i vores Walk and Talk i Kragelund ved Varde, der blev skabt nye venskaber og forbedret andre.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div> 
-  <h2 class="center">Billeder fra tidligere arrangementer</h2>
-</div>
-
-<div class="gallery-container">
-  <div class="gallery">
-    <div class="gallery-inner">
-      <div class="gallery-item">
-        <img src="images/fynshoved.jpg" alt="unge der løber en tur">
       </div>
-      <div class="gallery-item">
-        <img src="images/unge.med.oel.jpg" alt="unge med øl">
+    </div>
+    <div class="column">
+      <img class="tidligere" src="images/kollund.skov.jpg" alt="kanotur på holme å">
+      <div class="overlay">
+        <h3 class="event-title">Sheltertur den 17-20 maj i Kollund skov</h3> 
+        <p>Nu er det tid igen, vi gentager succesen med vores årlige pinsetur. 
+          Ved du ikke hvad du skal i pinsen så frygt ikke vi har den helt rigtige oplevelse for dig. Deltag i en fantastisk sheltertur i kollund skov her vil du skabe ny bekendtskaber over naturoplevelser og selvfølgelig nogle kolde Naturøl 
+        </p>
       </div>
-      <div class="gallery-item">
-        <img src="images/unge.walking.2.jpg" alt="unge går">
-      </div>
-      <div class="gallery-item">
-        <img src="images/unge.walking.jpg" alt="unge der går">
+    </div>
+    <div class="column">
+      <img class="tidligere" src="images/storebaelt.klint.jpg" alt="vandretur i kragelund skov">
+      <div class="overlay">
+        <h3 class="event-title"> Ølsmagning  den 1 juni ved Storebæltsbroen</h3> 
+        <p>
+          I anledning af vores nye naturområde ved Storebæltsbroen inviterer vi til en eksklusiv ølsmagning med direkte udsigt til Storebæltsbroen. Vores samarbejdspartner og brygger af Naturøl Nørrebro Bryghus vil sørge for øl.
+        </p>
       </div>
     </div>
   </div>
-</div>
 
-
-
-<form id="newsletterform">
-  <div class="containernews">
-    <h2>Tilmeld dig vores nyhedsbrev</h2>
-    <p>Tilmeld dig vores nyhedsbrev til unge og modtag info om kommende arrangementer, samt eksklusive tilbud kun for dig.</p>
+  <div>
+    <h2 class="center">Tidligere arrangementer</h2>
   </div>
-  <div class="containernews">
-    <input type="text" placeholder="E-mail" name="E-mail" id="email" required>
+
+  <div class="row">
+      <div class="column"> 
+       <img class="tidligere" src="images/fynshoved.jpg" alt="unge der løber en tur">
+        <div class="overlay">
+        <h3> Natur run den 17 marts på Fyns hoved</h3> 
+          <p> 
+           Den 17 mart var 33 med til at deltage i vores årlige Natur run ved smukke fyns hovde der blev både løbet 3km og hele 25km samtidig med at der blev snakket og drukket øl og vand 
+          </p>
+      </div>
+    </div>
+    <div class="column">
+      <img class="tidligere" src="images/kano.arrangement.jpg" alt="kanotur på holme å">
+      <div class="overlay">
+        <h3> Kanotur den 28 marts på Holme Å</h3> 
+        <p>
+          Den 28.marts var 28 mellem alderen 20-25 år mødt op til en sjov og udfordrende kanotur på holme Å der blev drukket øl og brugt ro musklerne.
+        </p>
+      </div>
+    </div>
+      <div class="column">
+        <img class="tidligere" src="images/unge.walking.jpg" alt="vandretur i kragelund skov">
+        <div class="overlay">
+          <h3> Walk and talk den 24 februar i Kraglund, Varde </h3> 
+          <p>
+            Den 24 februar dukkede 26 op for at deltage socialt i vores Walk and Talk i Kragelund ved Varde, der blev skabt nye venskaber og forbedret andre.
+          </p>
+        </div>
+      </div>
   </div>
-  <div class="containernews">
-    <button class="nyhedsbrev" type="submit">Tilmeld</button>
+
+  <div> 
+    <h2 class="center">Billeder fra tidligere arrangementer</h2>
   </div>
-</form>
+
+  <div class="gallery-container">
+   <div class="gallery">
+      <div class="gallery-inner">
+        <div class="gallery-item">
+          <img src="images/fynshoved.jpg" alt="unge der løber en tur">
+        </div>
+        <div class="gallery-item">
+          <img src="images/unge.med.oel.jpg" alt="unge med øl">
+        </div>
+        <div class="gallery-item">
+          <img src="images/unge.walking.2.jpg" alt="unge går">
+        </div>
+        <div class="gallery-item">
+          <img src="images/unge.walking.jpg" alt="unge der går">
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-<footer>
-  <div class="footer-container">
-    <img src="logo.png" alt="" class="footer-logo">
-      <div class="footer-column">
-          <h3>OVERSIGT</h3 >
-          <p>Besøg naturen <br>
+
+  <form id="newsletterform">
+    <div class="containernews">
+      <h2>Tilmeld dig vores nyhedsbrev</h2>
+      <p>Tilmeld dig vores nyhedsbrev til unge og modtag info om kommende arrangementer, samt eksklusive tilbud kun for dig.</p>
+    </div>
+    <div class="containernews">
+      <input type="text" placeholder="E-mail" name="E-mail" id="email" required>
+    </div>
+   <div class="containernews">
+      <button class="nyhedsbrev" type="submit">Tilmeld</button>
+    </div>
+  </form>
+
+
+  <footer>
+      <div class="footer-container">
+        <img src="logo.png" alt="" class="footer-logo">
+          <div class="footer-column">
+            <h3>OVERSIGT</h3 >
+            <p>Besøg naturen <br>
               Regler for adgang <br>
               Regler for indsamling <br>
               Om fonden <br>
               Nyheder <br>
               Kontakt
-          </p>
-      </div>
-      <div class="footer-column">
-          <h3>STØT</h3>
-          <p>Giv et bidrag <br>
-          Naturbeskytter <br>
-          Arv og testamente <br>
-          Skovbevis <br>
-          Velgørenhedsgaver <br>
-          For virksomheder</p>
-      </div>
-      <div class="footer-column">
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>STØT</h3>
+            <p>Giv et bidrag <br>
+            Naturbeskytter <br>
+            Arv og testamente <br>
+            Skovbevis <br>
+            Velgørenhedsgaver <br>
+            For virksomheder</p>
+          </div>
+        <div class="footer-column">
           <h3>KONTAKT</h3>
           <p>Den danske naturfond <br>
               Vodroffsvej 59 <br>
@@ -237,8 +233,8 @@
               Bankoplysninger <br>
               Reg. nr. 4387 <br>
               Kontonummer 12476205</p>
+        </div>
       </div>
-  </div>
-</footer>
-</body>
+    </footer>
+  </body>
 </html>
