@@ -51,7 +51,6 @@ p{
 .logo img {
     max-width: 200px; 
 }
-  
 
 
  /* The sidebar menu */
@@ -217,7 +216,7 @@ p{
 
 /*lommeregner*/
 .beer {
-  max-height: auto;
+  height: auto;
   width: 15%;
   margin: 0 auto; 
   display: block; 
@@ -316,7 +315,6 @@ p{
   background-color: #284E37;
   color: white;
   text-align: center;
-  font-size: arial;
 }
 
 
@@ -355,8 +353,6 @@ p{
 
 
 /*nyhedsbrev*/
-
-
 
 form {
   text-align: center;
@@ -418,7 +414,6 @@ input[type=text] {
   font-size: 130%;
   border-radius: 10px;
 }
-
 
 
 /* styling af footer*/
