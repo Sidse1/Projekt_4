@@ -119,8 +119,6 @@ p{
 
 /* slideshow*/
 
-
-
 .slideshow-container {
   width: 100%;
   position: relative;
@@ -227,7 +225,7 @@ p{
 
 .kampagne-tekst {
   color: #444;
-  line-height: 1.5; /* Juster linjeafstand efter behov */
+  line-height: 1.5; 
 }
 
 .container3 {
@@ -467,118 +465,143 @@ footer {
 /* For tablets */
 @media only screen and (max-width: 768px) {
   .container {
-    flex-direction: column; /* Change flex direction for header */
-    align-items: center; /* Center align items */
+    flex-direction: column; 
+    align-items: center; 
   }
 
+  .foto1 {
+    margin-top: -30px;
+    width: 100%;
+    height: 60%;
+  }
   .menu {
-    margin-top: 0; /* Adjust menu margin */
+    margin-top: 0; 
   }
 
   .logo img {
-    max-width: 150px; /* Decrease logo size */
+    max-width: 150px; 
   }
 
   .sidebar {
-    width: 200px; /* Adjust sidebar width */
+    width: 200px; 
   }
 
   .openbtn {
-    top: 20px; /* Adjust position of sidebar toggle button */
+    top: 20px; 
   }
 
   .middle-bottom button {
-    font-size: 16px; /* Decrease button font size */
+    font-size: 16px; 
   }
 
-  /* Adjust slideshow text size */
+  
   .text1 {
     font-size: 30px;
   }
 
-  /* Adjust beer image size */
+  
   .beer {
-    width: 100%; /* Set beer image width to fill container */
+    width: 20%; 
   }
 
   .container3 {
-    max-width: 80%; /* Adjust container width */
+    max-width: 80%; 
     margin-left: auto;
     margin-right: auto;
   }
 
   .column {
-    width: 100%; /* Set column width to full */
-    padding: 10px; /* Decrease column padding */
+    width: 100%; 
+    padding: 10px; 
   }
 
   .venstre {
-    display: none; /* Hide the left aligned content */
+    
+    font-family: arial; 
   }
 
-  /* Adjust newsletter input width */
+  
   input[type="text"] {
     width: 80%;
   }
 
-  /* Adjust gallery item width */
+  
   .gallery-item {
     width: 200px;
     margin-right: 10px;
   }
 
-  /* Adjust footer column width */
+ 
   .footer-column {
-    max-width: 50%; /* Adjust max-width */
+    max-width: 50%; 
   }
 }
 
-/* For mobile devices */
+/* For mobil */
 @media only screen and (max-width: 480px) {
   .logo img {
-    max-width: 120px; /* Further decrease logo size */
+    max-width: 120px; 
   }
 
+  .foto1 {
+    margin-top: -30px;
+    width: 100%;
+    height: 60%;
+    
+  }
   .sidebar {
-    width: 150px; /* Further adjust sidebar width */
+    width: 150px; 
   }
 
   .openbtn {
-    top: 10px; /* Further adjust position of sidebar toggle button */
+    top: 10px; 
   }
 
-  /* Adjust slideshow text size */
+  
   .text1 {
     font-size: 24px;
   }
 
-  /* Adjust beer image size */
+ 
   .beer {
-    width: 100%; /* Set beer image width to fill container */
+    width: 20%; 
   }
 
   .container3 {
-    max-width: 90%; /* Further adjust container width */
-    padding: 10px; /* Decrease container padding */
+    max-width: 90%; 
+    padding: 10px; 
   }
 
   .column {
-    padding: 5px; /* Further decrease column padding */
+    padding: 5px; 
   }
 
-  /* Adjust newsletter input width */
+
   input[type="text"] {
     width: 90%;
   }
 
-  /* Adjust gallery item width */
+  
   .gallery-item {
     width: 150px;
     margin-right: 5px;
   }
 
-  /* Adjust footer column width */
+  
   .footer-column {
-    max-width: 100%; /* Adjust max-width */
+    max-width: 100%; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .venstre {
+    position: static; 
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .venstre {
+    margin-left: 0; 
   }
 }
