@@ -3,9 +3,9 @@ document.getElementById("beerForm").addEventListener("submit", function(event) {
     let liters = parseFloat(document.getElementById("beerInput").value);
     let result = document.getElementById("result");
     if (!isNaN(liters)) {
-        var squareMeters = liters;
-        var donationAmount = liters * 12;
-        var donations = []; 
+        let squareMeters = liters;
+        let donationAmount = liters * 12;
+        let donations = []; 
         for (let i = 1; i <= liters; i++) {
             donations.push(i * 12); 
         }
