@@ -2,7 +2,7 @@ const galleryInner = document.querySelector('.gallery-inner');
 const galleryItems = document.querySelectorAll('.gallery-item');
 
 
-const images = [ 'images/natur.jpg', 'images/natur.vand.jpg', 'images/natur.piger.jpg'];
+const images = [ 'natur.jpg', 'natur.vand.jpg', 'natur.piger.jpg'];
 
 
 images.forEach(image => {
