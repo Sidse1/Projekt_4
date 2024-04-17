@@ -5,13 +5,13 @@ let sidebarWidth = 250;
 
 function openNav() {
   document.getElementById("mySidebar").style.width = sidebarWidth + "px";
-  document.getElementById("main").style.marginRight = sidebarWidth + "px";
+  document.getElementById("main2").style.marginRight = sidebarWidth + "px";
 }
 
 
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginRight = "0";
+  document.getElementById("main2").style.marginRight = "0";
 }
 
 
@@ -45,7 +45,7 @@ buttons.forEach(button => {
 function updateSidebarWidth(newWidth) {
   let sidebarWidth = newWidth; 
   document.getElementById("mySidebar").style.width = sidebarWidth + "px";
-  document.getElementById("main").style.marginRight = sidebarWidth + "px";
+  document.getElementById("main2").style.marginRight = sidebarWidth + "px";
 }
 
 
