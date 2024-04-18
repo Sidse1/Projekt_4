@@ -13,7 +13,8 @@ document.getElementById("beerForm").addEventListener("submit", function(event) {
             result.innerHTML = "Tillykke, du har doneret 60 kr til Naturfonden";
         } else {
             let totalDonation = donations.reduce((acc, curr) => acc + curr, 0); 
-            result.innerHTML = `${liters} liter øl = ${squareMeters} kvadratmeter. <br> Din samlede donation er ${totalDonation} kr.`;
+            result.innerHTML = `${liters} liter øl = ${squareMeters} kvadratmeter. 
+            <br> Din samlede donation er ${totalDonation} kr.`;
         }
     } else {
         result.innerText = "Indtast venligst et gyldigt tal for mængden af øl.";
