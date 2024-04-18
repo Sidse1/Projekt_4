@@ -31,11 +31,6 @@ buttons.forEach(button => {
   toggleNav(); 
 });
 
-function updateSidebarWidth(newWidth) {
-  sidebarWidth = newWidth; 
-  document.getElementById("mySidebar").style.width = sidebarWidth + "px";
-  document.getElementById("main2").style.marginRight = sidebarWidth + "px";
-}
 
 let message = 'Velkommen til vores hjemmeside!';
 console.log(message);
